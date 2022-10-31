@@ -1,0 +1,1 @@
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Pa$$w0rd" -p 1433:1433 --name ITExpert --hostname ITExpert -d mcr.microsoft.com/mssql/server
